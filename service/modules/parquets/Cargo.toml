@@ -1,0 +1,29 @@
+[package]
+name = "parquets"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "parquets"
+path = "src/main.rs"
+
+[dependencies]
+marine-rs-sdk = "0.7.1"
+# arrow = { version = "38.0.0", default-features = false, features = ["csv"] }
+parquet = { version = "38.0.0", default_features = false, features = [
+    "json",
+    "snap",
+    "flate2",
+    "brotli",
+    "arrow",
+] }
+# polars = "0.28.0" -- won't compile
+polars-core = "*"
+polars-lazy = "*"
+polars-io = "*"
+getrandom = "*"
+arrow-array = "38.0.0"
+arrow-digest = "38.0.0"
+
+[dev-dependencies]
+marine-rs-sdk-test = "0.9.0"

@@ -1,0 +1,3 @@
+service Parquets("parquets"):
+  greeting(name: string) -> string
+  polars_ex()

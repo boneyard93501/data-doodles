@@ -1,0 +1,9 @@
+{
+  "aquaSettings.imports": [
+    "/Users/bebo/localdev/apache-arrow/.fluence/aqua",
+    "/Users/bebo/.fluence/npm/@fluencelabs/aqua-lib/0.7.0/node_modules",
+    "/Users/bebo/.fluence/npm/@fluencelabs/aqua/0.10.4/node_modules",
+    "/Users/bebo/.fluence/npm/@fluencelabs/registry/0.8.3/node_modules",
+    "/Users/bebo/.fluence/npm/@fluencelabs/spell/0.4.0/node_modules"
+  ]
+}
